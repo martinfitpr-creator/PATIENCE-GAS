@@ -26,7 +26,7 @@ const reasons = [
   {
     icon: CreditCard,
     title: 'Flexible Payment',
-    description: 'Cash, EFT, or card on delivery — whatever is most convenient for you.',
+    description: 'Cash or EFT on delivery — whatever is most convenient for you.',
   },
 ];
 

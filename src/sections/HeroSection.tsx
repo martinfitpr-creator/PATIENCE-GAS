@@ -96,22 +96,17 @@ export default function HeroSection() {
       className="relative w-full overflow-hidden"
       style={{ height: '100dvh' }}
     >
-      {/* Video Background */}
+      {/* Image Background */}
       <div
         ref={videoContainerRef}
         className="absolute inset-0 w-full h-full"
         style={{ willChange: 'transform' }}
       >
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          poster="/assets/img-hero-poster.jpg"
+        <img
+          src="/assets/hero-bg-gas-seal.jpg"
+          alt="LPG Gas Cylinder Safety Seal"
           className="w-full h-full object-cover"
-        >
-          <source src="/assets/vid-hero-flame.mp4" type="video/mp4" />
-        </video>
+        />
       </div>
 
       {/* Dark Overlay */}

@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { useGSAP } from '@gsap/react';
-import { Check, Banknote, CreditCard, Smartphone } from 'lucide-react';
+import { Check, Banknote, Smartphone } from 'lucide-react';
 import SectionHeader from '@/components/SectionHeader';
 import WhatsAppButton from '@/components/WhatsAppButton';
 import { useReducedMotion } from '@/hooks/useReducedMotion';
@@ -19,7 +19,6 @@ const features = [
 const paymentMethods = [
   { icon: Banknote, label: 'Cash' },
   { icon: Smartphone, label: 'EFT' },
-  { icon: CreditCard, label: 'Card on Delivery' },
 ];
 
 export default function FeaturedProductSection() {

@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     question: 'How do I pay?',
-    answer: 'We accept cash, EFT, and card on delivery. You only pay once the gas is delivered and safely set up.',
+    answer: 'We accept cash and EFT on delivery. You only pay once the gas is delivered and safely set up.',
   },
   {
     question: 'Is there a delivery fee?',
