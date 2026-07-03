@@ -1,5 +1,4 @@
 import { MapPin, CheckCircle } from 'lucide-react';
-import SectionHeader from '@/components/SectionHeader';
 import ScrollReveal from '@/components/ScrollReveal';
 import WhatsAppButton from '@/components/WhatsAppButton';
 

@@ -14,6 +14,7 @@ interface ScrollRevealProps {
   stagger?: number;
   start?: string;
   delay?: number;
+  style?: React.CSSProperties;
 }
 
 export default function ScrollReveal({
@@ -24,6 +25,7 @@ export default function ScrollReveal({
   stagger = 0.12,
   start = 'top 80%',
   delay = 0,
+  style,
 }: ScrollRevealProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const reducedMotion = useReducedMotion();
@@ -57,6 +59,7 @@ export default function ScrollReveal({
     <div
       ref={containerRef}
       className={className}
+      style={style}
     >
       {children}
     </div>

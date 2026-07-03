@@ -1,6 +1,3 @@
-import { useRef } from 'react';
-import SectionHeader from '@/components/SectionHeader';
-import ScrollReveal from '@/components/ScrollReveal';
 
 const instructions = [
   {
